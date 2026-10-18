@@ -1,0 +1,20 @@
+{
+  "name": "codejackass",
+  "description": "CodeKnight and TokenCop plugins for Claude Code",
+  "owner": {
+    "name": "codejackass",
+    "email": "support@codejackass.com"
+  },
+  "plugins": [
+    {
+      "name": "codeknight",
+      "source": "./plugins/codeknight",
+      "description": "Check staged changes or a diff with CodeKnight before committing. Rule-based checks run locally; AI review is optional."
+    },
+    {
+      "name": "tokencop",
+      "source": "./plugins/tokencop",
+      "description": "Check a TokenCop task budget and ask a TokenCop admin for more."
+    }
+  ]
+}

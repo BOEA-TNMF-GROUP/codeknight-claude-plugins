@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "codeknight": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/codeknight-mcp.js"],
+      "env": {
+        "CODEKNIGHT_API_TOKEN": "${user_config.api_token}",
+        "CODEKNIGHT_SERVER_URL": "${user_config.server_url}",
+        "CLAUDE_PROJECT_DIR": "${CLAUDE_PROJECT_DIR}"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "codeknight",
+  "displayName": "CodeKnight",
+  "version": "0.3.0",
+  "description": "Lets Claude check its staged changes, or a diff, with CodeKnight before committing. Rule-based checks run on your machine with no account. AI review is optional and uses your CodeKnight server.",
+  "author": {
+    "name": "codejackass",
+    "email": "support@codejackass.com",
+    "url": "https://codejackass.com/"
+  },
+  "homepage": "https://codejackass.com/",
+  "license": "LicenseRef-Proprietary",
+  "keywords": ["code review", "security", "secrets", "pre-commit", "static analysis"],
+  "icon": "./icon.png",
+  "privacyPolicyUrl": "https://codejackass.com/privacy",
+  "termsOfServiceUrl": "https://codejackass.com/terms",
+  "userConfig": {
+    "api_token": {
+      "type": "string",
+      "title": "CodeKnight API token (optional)",
+      "description": "Only for AI review: the client token that `codeknight login` issues. Leave empty to run only the local rule-based checks.",
+      "sensitive": true,
+      "default": ""
+    },
+    "server_url": {
+      "type": "string",
+      "title": "CodeKnight server URL (optional)",
+      "description": "Only for AI review: your CodeKnight server (https:// only). Leave empty to run only the local rule-based checks.",
+      "default": ""
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "tokencop",
+  "displayName": "TokenCop",
+  "version": "0.3.0",
+  "description": "Lets Claude check its TokenCop task budget and ask a TokenCop admin for more. Needs a TokenCop account and API key.",
+  "author": {
+    "name": "codejackass",
+    "email": "support@codejackass.com",
+    "url": "https://codejackass.com/"
+  },
+  "homepage": "https://codejackass.com/",
+  "license": "LicenseRef-Proprietary",
+  "keywords": ["ai agents", "token budget", "cost control", "spend limits"],
+  "icon": "./icon.png",
+  "privacyPolicyUrl": "https://codejackass.com/privacy",
+  "termsOfServiceUrl": "https://codejackass.com/terms",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "TokenCop API key",
+      "description": "An API key (tcop_...) from the TokenCop dashboard.",
+      "sensitive": true,
+      "default": ""
+    },
+    "server_url": {
+      "type": "string",
+      "title": "TokenCop server URL",
+      "description": "The TokenCop server your account is on (https:// only).",
+      "default": ""
+    }
+  }
+}

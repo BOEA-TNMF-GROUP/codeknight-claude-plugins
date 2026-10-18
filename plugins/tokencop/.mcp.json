@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "tokencop": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/tokencop-mcp.js"],
+      "env": {
+        "TOKENCOP_KEY": "${user_config.api_key}",
+        "TOKENCOP_SERVER_URL": "${user_config.server_url}"
+      }
+    }
+  }
+}
