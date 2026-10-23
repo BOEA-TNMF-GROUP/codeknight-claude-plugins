@@ -2,6 +2,15 @@
 
 TokenCop is a budget guard for AI agents. This plugin gives Claude Code two tools for an existing TokenCop account: one checks the remaining budget, and one asks a TokenCop admin for more. The plugin needs a TokenCop API key and the URL of your TokenCop server. Without them, both tools return an error that says what to set.
 
+## Install
+
+In Claude Code:
+
+```
+/plugin marketplace add BOEA-TNMF-GROUP/codeknight-claude-plugins
+/plugin install tokencop@codejackass
+```
+
 ![TokenCop](./icon.png)
 
 ## Tools

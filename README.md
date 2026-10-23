@@ -2,7 +2,7 @@
 
 This repository holds two Claude Code plugins published by codejackass:
 
-- [`plugins/codeknight`](plugins/codeknight/README.md): lets Claude check its staged changes, or a diff, with CodeKnight before it commits. The rule-based checks run on your machine with no account. AI review is optional and uses your CodeKnight server.
+- [`plugins/codeknight`](plugins/codeknight/README.md): lets Claude check its staged changes, or a diff, with CodeKnight before it commits. The rule-based checks run on your machine with no account. By default Claude does the AI review itself, on your Claude subscription. A CodeKnight server review is optional.
 - [`plugins/tokencop`](plugins/tokencop/README.md): lets Claude check a TokenCop budget and ask a TokenCop admin for more. Needs a TokenCop account.
 
 Each plugin's README says what it does and what leaves your machine.
