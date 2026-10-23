@@ -1,7 +1,7 @@
 {
   "name": "tokencop",
   "displayName": "TokenCop",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Lets Claude check its TokenCop task budget and ask a TokenCop admin for more. Needs a TokenCop account and API key.",
   "author": {
     "name": "codejackass",
