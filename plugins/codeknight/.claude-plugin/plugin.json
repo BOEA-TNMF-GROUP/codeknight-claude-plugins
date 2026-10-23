@@ -1,7 +1,7 @@
 {
   "name": "codeknight",
   "displayName": "CodeKnight",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Lets Claude check its staged changes, or a diff, with CodeKnight before committing. A hook blocks git commit when a local finding meets the gate. Rule-based checks run on your machine with no account. By default Claude does the AI review itself. A CodeKnight server review is optional.",
   "author": {
     "name": "codejackass",
