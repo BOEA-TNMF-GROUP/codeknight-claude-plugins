@@ -9,7 +9,7 @@
     {
       "name": "codeknight",
       "source": "./plugins/codeknight",
-      "description": "Check staged changes or a diff with CodeKnight before committing. Rule-based checks run locally; AI review is optional."
+      "description": "Check staged changes or a diff with CodeKnight before committing. Rule-based checks run locally; Claude does the AI review on your own model."
     },
     {
       "name": "tokencop",

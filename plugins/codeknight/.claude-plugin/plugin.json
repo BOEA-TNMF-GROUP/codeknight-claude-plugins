@@ -2,7 +2,7 @@
   "name": "codeknight",
   "displayName": "CodeKnight",
   "version": "0.3.0",
-  "description": "Lets Claude check its staged changes, or a diff, with CodeKnight before committing. Rule-based checks run on your machine with no account. AI review is optional and uses your CodeKnight server.",
+  "description": "Lets Claude check its staged changes, or a diff, with CodeKnight before committing. A hook blocks git commit when a local finding meets the gate. Rule-based checks run on your machine with no account. By default Claude does the AI review itself. A CodeKnight server review is optional.",
   "author": {
     "name": "codejackass",
     "email": "support@codejackass.com",
@@ -18,14 +18,14 @@
     "api_token": {
       "type": "string",
       "title": "CodeKnight API token (optional)",
-      "description": "Only for AI review: the client token that `codeknight login` issues. Leave empty to run only the local rule-based checks.",
+      "description": "Only when you explicitly ask for a CodeKnight server review: the client token that `codeknight login` issues. Leave empty. The default review uses your own Claude and sends nothing.",
       "sensitive": true,
       "default": ""
     },
     "server_url": {
       "type": "string",
       "title": "CodeKnight server URL (optional)",
-      "description": "Only for AI review: your CodeKnight server (https:// only). Leave empty to run only the local rule-based checks.",
+      "description": "Only when you explicitly ask for a CodeKnight server review: your CodeKnight server (https:// only). Leave empty. The default review uses your own Claude and sends nothing.",
       "default": ""
     }
   }
